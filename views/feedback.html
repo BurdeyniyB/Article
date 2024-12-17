@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Feedback</title>
+</head>
+<body>
+    <h1>Feedback</h1>
+    <form id="feedbackForm" action="/feedback" method="POST">
+        <div id="feedbackInfo">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <select id="choose" name="feedbackType" required>
+                <option value="">Feedback Type</option>
+                <option value="question">Question</option>
+                <option value="complaint">Complaint</option>
+                <option value="suggestion">Suggestion</option>
+            </select>
+        </div>
+        <textarea id="feedback_text" name="feedback" rows="5" placeholder="Your feedback" required></textarea>
+        <button type="submit">Submit Feedback</button>
+    </form>
+    <div id="message"></div>
+
+    <div id="socialMedia">
+        <p>Follow us on social media:</p>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+    </div>
+
+    <script src="/js/feedback.js"></script>
+    <script src="/js/adaptUI/adaptFeedback.js"></script>
+</body>
+</html>

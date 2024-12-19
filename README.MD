@@ -49,6 +49,9 @@ Follow these steps to install and run the application:
 
    ```bash
    npm install
+   npm install express
+   npm install nodemailer
+   npm install axios
 
 4. Start the server:
    ```bash

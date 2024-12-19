@@ -1,0 +1,11 @@
+Register:
+Username: Boris
+Password: adsvsdfvs
+First Name: Boris
+Last Name: Burdeyniy
+Email: borisburdeyniy@gmail.com
+Years: 18
+Phone: +380973431619
+Country: ukraine
+Sex: male
+Agreement: on
